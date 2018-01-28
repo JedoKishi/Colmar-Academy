@@ -1,0 +1,25 @@
+html{
+  font-size: 16px;
+}
+
+/*Header*/
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  border: 1px solid black;
+}
+.banner-name{
+  display: flex;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1.5rem;
+}
+
+a{
+  margin-left: 1rem;
+}
