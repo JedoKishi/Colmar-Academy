@@ -14,7 +14,7 @@ html{
   display: flex;
   align-items: center;
 }
-nav ul{
+.header nav ul{
   display: flex;
   justify-content: space-between;
   margin-right: 1.5rem;
