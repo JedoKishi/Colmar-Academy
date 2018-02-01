@@ -1,5 +1,6 @@
 html{
   font-size: 16px;
+  font-family: 'Alegreya', serif;
 }
 /*info sidebars*/
 .center{
@@ -14,25 +15,39 @@ html{
 }
 
 .info{
+  background-color: black;
   display: flex;
   align-items: center;
+  border: 5px solid white;
+  color: white;
 }
 
 .info-text{
   width: 65%;
 }
+
+.learning-column{
+  margin-top: 1.7rem;
+}
+
 /*Header*/
 header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 4rem;
-  border: 1px solid black;
+  background-color: #4F0A30;
 }
-.banner-name{
+
+.school-name{
   display: flex;
   align-items: center;
 }
+
+header img{
+  margin-left: 1.5rem;
+}
+
 header nav ul{
   display: flex;
   justify-content: space-between;
@@ -41,11 +56,23 @@ header nav ul{
 
 header a{
   margin-left: 1rem;
+  color: white;
 }
 
+.colmar{
+  color: white;
+}
+
+.academy{
+  color: #12E7FF;
+}
 /*banner*/
 .banner{
   display: flex;
+}
+
+.banner-background{
+  background-image: linear-gradient(#4F0A30, #12E7FF);
 }
 
 .banner img{
@@ -61,15 +88,31 @@ header a{
 }
 
 .learn h1{
-  font-size: 2rem;
+  font-size: 5rem;
+  margin-bottom: 2rem;
 }
 
 .learn h3{
-  font-size: 1.3rem;
+  font-size: 2.3rem;
 }
 
 button{
+  font-size: 1.5rem;
   padding: .5rem;
+  background-color: white;
+  width: 80%;
+  margin-top: 2rem;
+  box-shadow: .5rem .5rem #4F0A30;
+}
+
+button:hover{
+  background-color: #E5E5E5;
+  transition-duration: 500ms;
+}
+
+button:active{
+  background-color: #D6D6D6;
+  transition-duration: 50ms;
 }
 
 /*school info*/
@@ -87,15 +130,34 @@ button{
 }
 
 .practice h2{
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-bottom: 1.5rem;
+}
+.practice p{
+    font-size: 1.3rem;
 }
 
 .practice span{
   margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.campus-info h3{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.campus-info a{
+  margin-top: 1.5rem;
+  color: lightblue;
 }
 
 /*start learning sec*/
+.learning-container{
+  background-color: #4F0A30;
+}
+
 .learning{
   padding: 2rem 3.5rem 3.5rem 3.5rem;
 }
@@ -103,6 +165,8 @@ button{
   text-align: center;
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: white;
+  text-shadow: .25rem .25rem .25rem gray;
 }
 
 .courses{
@@ -120,10 +184,12 @@ button{
   width: 30%;
   margin: 1rem;
   padding-bottom: 1.5rem;
+  background-color: white;
 }
 
 .classes h3{
   font-size: 1.3rem;
+  font-weight: bold;
   margin: 1rem 0;
 }
 
@@ -135,6 +201,9 @@ button{
   padding-left: 1rem;
 }
 
+.course-info div{
+  font-style: italic;
+}
 /*thesis exhibit*/
 .thesis{
   padding: 2rem 0 2rem 1.5rem;
@@ -170,6 +239,8 @@ footer{
   justify-content: space-between;
   border-top: 1px solid gray;
   padding: 1rem 1.5rem;
+  background-color: hsla(331, 100%, 17%, 0.9);
+  color: white;
 }
 
 footer nav ul{
@@ -178,4 +249,8 @@ footer nav ul{
 
 footer ul li{
   margin-left: 1.5rem;
+}
+
+footer a{
+  color: white;
 }
